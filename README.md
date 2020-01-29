@@ -36,6 +36,11 @@ namespace Example
 
             var vector = new Vector<double>();
             vector.Add(3.14);
+            
+            foreach(var item in stack)
+            {
+                ...
+            }
         }
     }
 }
